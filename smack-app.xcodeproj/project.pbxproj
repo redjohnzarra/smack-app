@@ -22,6 +22,8 @@
 		1A7632F7220D678400355B3F /* RoundedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A7632F6220D678400355B3F /* RoundedButton.swift */; };
 		1A7632F9220D768A00355B3F /* AvatarPickerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A7632F8220D768A00355B3F /* AvatarPickerVC.swift */; };
 		1A7632FB220D788A00355B3F /* AvatarCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A7632FA220D788A00355B3F /* AvatarCell.swift */; };
+		1A7632FE220D7B9E00355B3F /* ProfileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A7632FC220D7B9E00355B3F /* ProfileVC.swift */; };
+		1A7632FF220D7B9E00355B3F /* ProfileVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1A7632FD220D7B9E00355B3F /* ProfileVC.xib */; };
 		A0E6EDF1E722419A492D0E52 /* Pods_smack_app.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3EB33820AEF94646EC1844C9 /* Pods_smack_app.framework */; };
 /* End PBXBuildFile section */
 
@@ -46,6 +48,8 @@
 		1A7632F6220D678400355B3F /* RoundedButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedButton.swift; sourceTree = "<group>"; };
 		1A7632F8220D768A00355B3F /* AvatarPickerVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvatarPickerVC.swift; sourceTree = "<group>"; };
 		1A7632FA220D788A00355B3F /* AvatarCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvatarCell.swift; sourceTree = "<group>"; };
+		1A7632FC220D7B9E00355B3F /* ProfileVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileVC.swift; sourceTree = "<group>"; };
+		1A7632FD220D7B9E00355B3F /* ProfileVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProfileVC.xib; sourceTree = "<group>"; };
 		3EB33820AEF94646EC1844C9 /* Pods_smack_app.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_smack_app.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7ECB5646C74F7B833DAA7328 /* Pods-smack-app.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-smack-app.debug.xcconfig"; path = "Pods/Target Support Files/Pods-smack-app/Pods-smack-app.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -80,6 +84,7 @@
 				1A55DCF6220C339200112FD1 /* LoginVC.swift */,
 				1A43ED91220C364C00B946B6 /* CreateAcctVC.swift */,
 				1A7632F8220D768A00355B3F /* AvatarPickerVC.swift */,
+				1A7632FC220D7B9E00355B3F /* ProfileVC.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -130,6 +135,7 @@
 		1A668702220A9D140065A7F5 /* smack-app */ = {
 			isa = PBXGroup;
 			children = (
+				1A763300220D7BC500355B3F /* Xibs */,
 				1A7632F3220D5EBA00355B3F /* Services */,
 				1A55DCF1220C2E1E00112FD1 /* Utilities */,
 				1A382882220BB6D500ECA312 /* Model */,
@@ -151,6 +157,14 @@
 				1A7632F4220D5EDF00355B3F /* AuthService.swift */,
 			);
 			path = Services;
+			sourceTree = "<group>";
+		};
+		1A763300220D7BC500355B3F /* Xibs */ = {
+			isa = PBXGroup;
+			children = (
+				1A7632FD220D7B9E00355B3F /* ProfileVC.xib */,
+			);
+			path = Xibs;
 			sourceTree = "<group>";
 		};
 		355780BEC56B7D7D82D7F913 /* Pods */ = {
@@ -231,6 +245,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1A7632FF220D7B9E00355B3F /* ProfileVC.xib in Resources */,
 				1A66870E220A9D150065A7F5 /* LaunchScreen.storyboard in Resources */,
 				1A66870B220A9D150065A7F5 /* Assets.xcassets in Resources */,
 				1A668709220A9D140065A7F5 /* Main.storyboard in Resources */,
@@ -297,6 +312,7 @@
 				1A7632F5220D5EDF00355B3F /* AuthService.swift in Sources */,
 				1A55DCF0220BF14F00112FD1 /* GradientView.swift in Sources */,
 				1A668704220A9D140065A7F5 /* AppDelegate.swift in Sources */,
+				1A7632FE220D7B9E00355B3F /* ProfileVC.swift in Sources */,
 				1A43ED92220C364C00B946B6 /* CreateAcctVC.swift in Sources */,
 				1A55DCED220BEBF400112FD1 /* SWRevealViewController.m in Sources */,
 				1A7632FB220D788A00355B3F /* AvatarCell.swift in Sources */,
