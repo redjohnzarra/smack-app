@@ -348,6 +348,9 @@
                                 <state key="normal" title="Create Account">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+                                <connections>
+                                    <action selector="createAccountPressed:" destination="SjP-oA-AI6" eventType="touchUpInside" id="dgr-Zt-zA1"/>
+                                </connections>
                             </button>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="14" translatesAutoresizingMaskIntoConstraints="NO" id="7ch-dC-SEV">
                                 <rect key="frame" x="62.5" y="126" width="250" height="148"/>
@@ -419,6 +422,7 @@
                                 </state>
                                 <connections>
                                     <action selector="createAcctBtnPressed:" destination="zcy-WK-cAL" eventType="touchUpInside" id="dzt-Ra-Vfb"/>
+                                    <action selector="pickAvatarPressed:" destination="SjP-oA-AI6" eventType="touchUpInside" id="t5W-0G-qvd"/>
                                 </connections>
                             </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="smackProfileIcon" translatesAutoresizingMaskIntoConstraints="NO" id="bVD-FK-gwd">
@@ -440,6 +444,7 @@
                                 </state>
                                 <connections>
                                     <action selector="createAcctBtnPressed:" destination="zcy-WK-cAL" eventType="touchUpInside" id="ASF-TM-UFC"/>
+                                    <action selector="pickBgColorPressed:" destination="SjP-oA-AI6" eventType="touchUpInside" id="PIO-Y5-jQq"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -464,6 +469,10 @@
                         <viewLayoutGuide key="safeArea" id="XOa-IF-YVF"/>
                     </view>
                     <connections>
+                        <outlet property="emailTxt" destination="CQ2-fF-CjW" id="k3d-nk-Ysw"/>
+                        <outlet property="passTxt" destination="Hb6-Hb-wNK" id="c7v-jh-8b9"/>
+                        <outlet property="userImg" destination="bVD-FK-gwd" id="9gi-Gm-Er4"/>
+                        <outlet property="usernameTxt" destination="tkZ-Qk-Ifs" id="pad-lS-2BH"/>
                         <segue destination="dCI-bE-IWz" kind="unwind" identifier="unwind_to_channel" unwindAction="prepareForUnwindWithSegue:" id="3W1-OJ-47K"/>
                     </connections>
                 </viewController>
