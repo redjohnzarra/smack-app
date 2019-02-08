@@ -1,5 +1,5 @@
 //
-//  LoginVC.swift
+//  CreateAcctVC.swift
 //  smack-app
 //
 //  Created by Reden John Zarra on 07/02/2019.
@@ -8,17 +8,13 @@
 
 import UIKit
 
-class LoginVC: UIViewController {
+class CreateAcctVC: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
 
     }
-
     @IBAction func closePressed(_ sender: Any) {
-        dismiss(animated: true, completion: nil)
-    }
-    @IBAction func createAcctBtnPressed(_ sender: Any) {
-        performSegue(withIdentifier: TO_CREATE_ACCT, sender: nil)
+        performSegue(withIdentifier: UNWIND_TO_CHANNEL, sender: nil)
     }
 }
