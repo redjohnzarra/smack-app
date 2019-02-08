@@ -9,7 +9,10 @@
 import UIKit
 
 class LoginVC: UIViewController {
-
+    // Outlets
+    @IBOutlet weak var usernameTxt: UITextField!
+    @IBOutlet weak var passTxt: UITextField!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -20,5 +23,10 @@ class LoginVC: UIViewController {
     }
     @IBAction func createAcctBtnPressed(_ sender: Any) {
         performSegue(withIdentifier: TO_CREATE_ACCT, sender: nil)
+    }
+    @IBAction func loginBtnPressed(_ sender: Any) {
+        guard let user = usernameTxt.text , usernameTxt.text != "" else { return }
+        guard let pass = passTxt.text , passTxt.text != "" else { return }
+        
     }
 }

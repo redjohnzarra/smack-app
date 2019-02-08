@@ -31,7 +31,11 @@ class CreateAcctVC: UIViewController {
         
         AuthService.instance.registerUser(email: email, password: pass) { (success) in
             if success {
-                print("User registered successfully!")
+                AuthService.instance.loginUser(email: email, password: pass, completion: { (success) in
+                    if success {
+                        print("Logged in successfully!", AuthService.instance.authToken)
+                    }
+                })
             }
         }
     }
