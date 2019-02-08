@@ -14,6 +14,7 @@ typealias CompletionHandler = (_ Success: Bool) -> () // typealias is like assig
 let TO_LOGIN = "to_login"
 let TO_CREATE_ACCT = "to_create_account"
 let UNWIND_TO_CHANNEL = "unwind_to_channel"
+let TO_AVATAR_PICKER = "to_avatar_picker"
 
 // User Defaults
 let TOKEN_KEY = "token"
