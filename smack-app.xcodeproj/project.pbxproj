@@ -24,6 +24,7 @@
 		1A7632FB220D788A00355B3F /* AvatarCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A7632FA220D788A00355B3F /* AvatarCell.swift */; };
 		1A7632FE220D7B9E00355B3F /* ProfileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A7632FC220D7B9E00355B3F /* ProfileVC.swift */; };
 		1A7632FF220D7B9E00355B3F /* ProfileVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1A7632FD220D7B9E00355B3F /* ProfileVC.xib */; };
+		1A763302220D85C400355B3F /* UserDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A763301220D85C400355B3F /* UserDataService.swift */; };
 		A0E6EDF1E722419A492D0E52 /* Pods_smack_app.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3EB33820AEF94646EC1844C9 /* Pods_smack_app.framework */; };
 /* End PBXBuildFile section */
 
@@ -50,6 +51,7 @@
 		1A7632FA220D788A00355B3F /* AvatarCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvatarCell.swift; sourceTree = "<group>"; };
 		1A7632FC220D7B9E00355B3F /* ProfileVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileVC.swift; sourceTree = "<group>"; };
 		1A7632FD220D7B9E00355B3F /* ProfileVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProfileVC.xib; sourceTree = "<group>"; };
+		1A763301220D85C400355B3F /* UserDataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDataService.swift; sourceTree = "<group>"; };
 		3EB33820AEF94646EC1844C9 /* Pods_smack_app.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_smack_app.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7ECB5646C74F7B833DAA7328 /* Pods-smack-app.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-smack-app.debug.xcconfig"; path = "Pods/Target Support Files/Pods-smack-app/Pods-smack-app.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -155,6 +157,7 @@
 			isa = PBXGroup;
 			children = (
 				1A7632F4220D5EDF00355B3F /* AuthService.swift */,
+				1A763301220D85C400355B3F /* UserDataService.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -306,6 +309,7 @@
 			files = (
 				1A382886220BB70700ECA312 /* ChannelVC.swift in Sources */,
 				1A7632F7220D678400355B3F /* RoundedButton.swift in Sources */,
+				1A763302220D85C400355B3F /* UserDataService.swift in Sources */,
 				1A7632F9220D768A00355B3F /* AvatarPickerVC.swift in Sources */,
 				1A382884220BB6F700ECA312 /* ChatVC.swift in Sources */,
 				1A55DCF7220C339200112FD1 /* LoginVC.swift in Sources */,
