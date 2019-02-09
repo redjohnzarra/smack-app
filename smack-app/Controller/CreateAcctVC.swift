@@ -55,7 +55,7 @@ class CreateAcctVC: UIViewController {
                                 self.spinner.isHidden = true
                                 self.spinner.stopAnimating()
                                 self.performSegue(withIdentifier: UNWIND_TO_CHANNEL, sender: nil)
-                                // Notification post to manipulate other VC
+                                // Notification post to manipulate other VC (See ChannelVC)
                                 NotificationCenter.default.post(name: NOTIF_USER_DATA_DID_CHANGE, object: nil)
                             }
                         })
@@ -74,6 +74,7 @@ class CreateAcctVC: UIViewController {
         let g = getRandomColorNumber()
         let b = getRandomColorNumber()
         bgColor = UIColor(red: r, green: g, blue: b, alpha: 1) // 1 for not transparent
+        avatarColor = "[\(r), \(g), \(b), 1]"
         // Animate the changing of bg color
         UIView.animate(withDuration: 0.2) {
             self.userImg.backgroundColor = self.bgColor

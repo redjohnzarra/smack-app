@@ -184,6 +184,7 @@
                     </view>
                     <connections>
                         <outlet property="loginBtn" destination="bRH-fM-xx2" id="eml-Cr-AyY"/>
+                        <outlet property="userAvatar" destination="scS-Y3-evQ" id="yIe-Yu-5XA"/>
                         <segue destination="zcy-WK-cAL" kind="show" identifier="to_login" id="L7E-Sc-f7k"/>
                     </connections>
                 </viewController>
