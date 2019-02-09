@@ -25,6 +25,7 @@
 		1A7632FE220D7B9E00355B3F /* ProfileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A7632FC220D7B9E00355B3F /* ProfileVC.swift */; };
 		1A7632FF220D7B9E00355B3F /* ProfileVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1A7632FD220D7B9E00355B3F /* ProfileVC.xib */; };
 		1A763302220D85C400355B3F /* UserDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A763301220D85C400355B3F /* UserDataService.swift */; };
+		1AEF4A7A220E68AA00BD3367 /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AEF4A79220E68AA00BD3367 /* CircleImage.swift */; };
 		A0E6EDF1E722419A492D0E52 /* Pods_smack_app.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3EB33820AEF94646EC1844C9 /* Pods_smack_app.framework */; };
 /* End PBXBuildFile section */
 
@@ -52,6 +53,7 @@
 		1A7632FC220D7B9E00355B3F /* ProfileVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileVC.swift; sourceTree = "<group>"; };
 		1A7632FD220D7B9E00355B3F /* ProfileVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProfileVC.xib; sourceTree = "<group>"; };
 		1A763301220D85C400355B3F /* UserDataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDataService.swift; sourceTree = "<group>"; };
+		1AEF4A79220E68AA00BD3367 /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
 		3EB33820AEF94646EC1844C9 /* Pods_smack_app.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_smack_app.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7ECB5646C74F7B833DAA7328 /* Pods-smack-app.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-smack-app.debug.xcconfig"; path = "Pods/Target Support Files/Pods-smack-app/Pods-smack-app.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -97,6 +99,7 @@
 				1A55DCEF220BF14F00112FD1 /* GradientView.swift */,
 				1A7632F6220D678400355B3F /* RoundedButton.swift */,
 				1A7632FA220D788A00355B3F /* AvatarCell.swift */,
+				1AEF4A79220E68AA00BD3367 /* CircleImage.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -321,6 +324,7 @@
 				1A55DCED220BEBF400112FD1 /* SWRevealViewController.m in Sources */,
 				1A7632FB220D788A00355B3F /* AvatarCell.swift in Sources */,
 				1A55DCF3220C2E3300112FD1 /* Constants.swift in Sources */,
+				1AEF4A7A220E68AA00BD3367 /* CircleImage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
