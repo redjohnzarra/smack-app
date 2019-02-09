@@ -22,11 +22,14 @@ class CreateAcctVC: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
     }
     
-    @IBAction func closePressed(_ sender: Any) {
-        performSegue(withIdentifier: UNWIND_TO_CHANNEL, sender: nil)
+    override func viewDidAppear(_ animated: Bool) {
+        if UserDataService.instance.avatarName != "" {
+            userImg.image = UIImage(named: UserDataService.instance.avatarName)
+            print("sample here \(UserDataService.instance.avatarName)")
+            avatarName = UserDataService.instance.avatarName
+        }
     }
     
     @IBAction func createAccountPressed(_ sender: Any) {
@@ -56,5 +59,9 @@ class CreateAcctVC: UIViewController {
     }
     
     @IBAction func pickBgColorPressed(_ sender: Any) {
+    }
+    
+    @IBAction func closePressed(_ sender: Any) {
+        performSegue(withIdentifier: UNWIND_TO_CHANNEL, sender: nil)
     }
 }

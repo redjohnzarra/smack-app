@@ -286,7 +286,7 @@
                                 </subviews>
                             </stackView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ufD-fK-sR0">
-                                <rect key="frame" x="86" y="344" width="203" height="30"/>
+                                <rect key="frame" x="86" y="349" width="203" height="30"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="203" id="6jF-th-8Gi"/>
                                     <constraint firstAttribute="height" constant="30" id="VXd-HH-vTY"/>
@@ -309,7 +309,7 @@
                             <constraint firstItem="B7E-Tz-AZZ" firstAttribute="top" secondItem="7b9-v4-efu" secondAttribute="bottom" constant="40" id="PZN-Fc-dJ7"/>
                             <constraint firstItem="ufD-fK-sR0" firstAttribute="centerX" secondItem="I9V-Rc-wSp" secondAttribute="centerX" id="RnT-8J-ouT"/>
                             <constraint firstItem="7b9-v4-efu" firstAttribute="centerX" secondItem="I9V-Rc-wSp" secondAttribute="centerX" id="YnW-dT-HPX"/>
-                            <constraint firstItem="ufD-fK-sR0" firstAttribute="top" secondItem="B7E-Tz-AZZ" secondAttribute="bottom" id="mVb-Qh-31X"/>
+                            <constraint firstItem="ufD-fK-sR0" firstAttribute="top" secondItem="B7E-Tz-AZZ" secondAttribute="bottom" constant="5" id="mVb-Qh-31X"/>
                             <constraint firstItem="B7E-Tz-AZZ" firstAttribute="centerX" secondItem="I9V-Rc-wSp" secondAttribute="centerX" id="wgI-eu-gCw"/>
                             <constraint firstItem="Dca-SA-W96" firstAttribute="trailing" secondItem="izQ-BX-arn" secondAttribute="trailing" constant="16" id="zDX-Jk-8Tp"/>
                         </constraints>
