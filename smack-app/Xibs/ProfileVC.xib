@@ -40,7 +40,7 @@
                                     <color key="textColor" red="0.25882352939999997" green="0.3294117647" blue="0.72549019609999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     <nil key="highlightedColor"/>
                                 </label>
-                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="smackProfileIcon" translatesAutoresizingMaskIntoConstraints="NO" id="dR8-8Q-JYO">
+                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="smackProfileIcon" translatesAutoresizingMaskIntoConstraints="NO" id="dR8-8Q-JYO" customClass="CircleImage" customModule="smack_app" customModuleProvider="target">
                                     <rect key="frame" x="10.5" y="43" width="100" height="100"/>
                                     <constraints>
                                         <constraint firstAttribute="width" constant="100" id="L2Y-HH-13P"/>
