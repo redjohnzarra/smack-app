@@ -126,11 +126,11 @@
                                     <constraint firstAttribute="width" constant="75" id="PDV-mW-QMy"/>
                                 </constraints>
                             </imageView>
-                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="dmi-KA-eHn">
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" allowsSelection="NO" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="dmi-KA-eHn">
                                 <rect key="frame" x="0.0" y="118" width="315" height="434"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="QVB-SY-Kw4">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="channelCell" id="QVB-SY-Kw4" customClass="ChannelCell" customModule="smack_app" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="28" width="315" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="QVB-SY-Kw4" id="yT4-fr-SgS">
@@ -150,6 +150,9 @@
                                             </constraints>
                                         </tableViewCellContentView>
                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <connections>
+                                            <outlet property="channelName" destination="tLQ-6Q-VhS" id="2kf-Ww-VrP"/>
+                                        </connections>
                                     </tableViewCell>
                                 </prototypes>
                             </tableView>
@@ -184,6 +187,7 @@
                     </view>
                     <connections>
                         <outlet property="loginBtn" destination="bRH-fM-xx2" id="eml-Cr-AyY"/>
+                        <outlet property="tableView" destination="dmi-KA-eHn" id="pIT-UP-Yr7"/>
                         <outlet property="userAvatar" destination="scS-Y3-evQ" id="yIe-Yu-5XA"/>
                         <segue destination="zcy-WK-cAL" kind="show" identifier="to_login" id="L7E-Sc-f7k"/>
                     </connections>
