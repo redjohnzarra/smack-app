@@ -56,5 +56,14 @@ class LoginVC: UIViewController {
         spinner.isHidden = true
         usernameTxt.attributedPlaceholder = getAttributePlaceholderColor(field: "username")
         passTxt.attributedPlaceholder = getAttributePlaceholderColor(field: "password")
+        
+        let tap = UITapGestureRecognizer(target: self, action: #selector(CreateAcctVC.handleTap))
+        view.addGestureRecognizer(tap)
+    }
+    
+    @objc func handleTap() {
+        UIView.animate(withDuration: 0.2) {
+            self.view.endEditing(true)
+        }
     }
 }

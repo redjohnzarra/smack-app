@@ -25,7 +25,7 @@
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
                 <view alpha="0.40000000000000002" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ZYd-A3-GeH" userLabel="bgView">
-                    <rect key="frame" x="0.0" y="20" width="375" height="647"/>
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                     <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                 </view>
                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="YSi-kE-IKy">
@@ -94,13 +94,13 @@
             <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
             <constraints>
                 <constraint firstItem="YSi-kE-IKy" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="20" id="4ks-qE-Est"/>
-                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="ZYd-A3-GeH" secondAttribute="trailing" id="EbT-gZ-MG9"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="ZYd-A3-GeH" secondAttribute="bottom" id="BWI-eS-Cgm"/>
                 <constraint firstItem="YSi-kE-IKy" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="H3c-9Z-ylc"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="ZYd-A3-GeH" secondAttribute="trailing" id="Huf-G7-Aj9"/>
                 <constraint firstItem="YSi-kE-IKy" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" id="Lx7-9e-my0"/>
-                <constraint firstItem="ZYd-A3-GeH" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" id="Pnf-mr-kQc"/>
                 <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="YSi-kE-IKy" secondAttribute="trailing" constant="20" id="aXQ-gN-PIn"/>
-                <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="ZYd-A3-GeH" secondAttribute="bottom" id="anu-ua-bwu"/>
-                <constraint firstItem="ZYd-A3-GeH" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="hrK-dI-8Ak"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="top" secondItem="ZYd-A3-GeH" secondAttribute="top" constant="20" id="cLh-fc-0Y8"/>
+                <constraint firstItem="ZYd-A3-GeH" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="mDs-Xb-0Yp"/>
             </constraints>
             <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
             <point key="canvasLocation" x="39.200000000000003" y="46.326836581709152"/>
