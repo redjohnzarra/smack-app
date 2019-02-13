@@ -161,7 +161,7 @@
                                 </prototypes>
                             </tableView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bRH-fM-xx2">
-                                <rect key="frame" x="111" y="594.5" width="38" height="30"/>
+                                <rect key="frame" x="106" y="594.5" width="38" height="30"/>
                                 <state key="normal" title="Login">
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
@@ -177,7 +177,7 @@
                             <constraint firstItem="bRH-fM-xx2" firstAttribute="centerY" secondItem="scS-Y3-evQ" secondAttribute="centerY" id="7cA-AZ-cek"/>
                             <constraint firstItem="I4e-MN-Qar" firstAttribute="trailing" secondItem="dmi-KA-eHn" secondAttribute="trailing" constant="60" id="EjD-BF-L3f"/>
                             <constraint firstItem="cZb-0d-tNI" firstAttribute="top" secondItem="I4e-MN-Qar" secondAttribute="top" constant="24" id="Mjc-lf-Jxy"/>
-                            <constraint firstItem="bRH-fM-xx2" firstAttribute="leading" secondItem="scS-Y3-evQ" secondAttribute="trailing" constant="20" id="RXI-0h-fTK"/>
+                            <constraint firstItem="bRH-fM-xx2" firstAttribute="leading" secondItem="scS-Y3-evQ" secondAttribute="trailing" constant="15" id="RXI-0h-fTK"/>
                             <constraint firstItem="scS-Y3-evQ" firstAttribute="leading" secondItem="I4e-MN-Qar" secondAttribute="leading" constant="16" id="WM5-rg-Ptr"/>
                             <constraint firstItem="cZb-0d-tNI" firstAttribute="leading" secondItem="I4e-MN-Qar" secondAttribute="leading" constant="16" id="bjZ-dP-k8D"/>
                             <constraint firstItem="dmi-KA-eHn" firstAttribute="top" secondItem="mDx-Xb-uyU" secondAttribute="bottom" constant="20" id="epj-y0-SZd"/>
