@@ -58,7 +58,6 @@ class SocketService: NSObject {
             // If the incoming message is part of the channel that we selected
             if channelId == MessageService.instance.selectedChannel?.id && AuthService.instance.isLoggedIn {
                 guard let messageBody = dataArray[0] as? String else { return }
-                guard let userId = dataArray[1] as? String else { return }
                 guard let userName = dataArray[3] as? String else { return }
                 guard let userAvatar = dataArray[4] as? String else { return }
                 guard let userAvatarColor = dataArray[5] as? String else { return }
@@ -72,6 +71,14 @@ class SocketService: NSObject {
             } else {
                 completion(false)
             }
+        }
+    }
+    
+    // with new completion handler
+    func getTypingUsers(_ completionHandler: @escaping (_ typingUsers: [String: String]) -> Void) {
+        socket.on("userTypingUpdate") { (dataArray, ack) in
+            guard let typingUsers = dataArray[0] as? [String: String] else { return } // a dictionary returned based on api socket
+            completionHandler(typingUsers)
         }
     }
 }
